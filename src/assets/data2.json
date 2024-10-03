@@ -1,0 +1,64 @@
+[
+  {
+    "label": "Dirección Administrativa",
+    "type": "person",
+    "className": "ui-person",
+    "expanded": true,
+    "data": {
+      "name": "Directora Administrativa",
+      "title": "DAI"
+    },
+    "children": [
+      {
+        "label": "TESORERIA",
+        "type": "person",
+        "className": "ui-person",
+        "expanded": true,
+        "data": {
+          "name": "Gerente de tesorería",
+          "title": "GTI"
+        }
+      },
+      {
+        "label": "RRHH",
+        "type": "person",
+        "className": "ui-person",
+        "expanded": true,
+        "data": {
+          "name": "Coordinador Capital Humano",
+          "title": "CRH 1"
+        }
+      },
+      {
+        "label": "SISTEMA DE GESTIÓN DE CALIDAD",
+        "type": "person",
+        "className": "ui-person",
+        "expanded": true,
+        "data": {
+          "name": "Coordinador de Sistema de Gestión de Calidad",
+          "title": "CSGC 1"
+        }
+      },
+      {
+        "label": "TECNOLOGÍAS DE LA INFORMACIÓN",
+        "type": "person",
+        "className": "ui-person",
+        "expanded": true,
+        "data": {
+          "name": "",
+          "title": ""
+        }
+      },
+      {
+        "label": "RECURSOS MATERIALES",
+        "type": "person",
+        "className": "ui-person",
+        "expanded": true,
+        "data": {
+          "name": "",
+          "title": ""
+        }
+      }
+    ]
+  }
+]

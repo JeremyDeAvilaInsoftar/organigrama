@@ -18,7 +18,12 @@
     "@angular/platform-browser": "^17.1.0",
     "@angular/platform-browser-dynamic": "^17.1.0",
     "@angular/router": "^17.1.0",
+    "basicprimitives": "^6.5.1",
+    "ngx-basic-primitives": "^6.5.2",
+    "primeicons": "^7.0.0",
+    "primeng": "^17.18.11",
     "rxjs": "~7.8.0",
+    "chart.js": "4.4.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },

@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+.chart-container {
+  width: 100%;
+  height: 600px;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+.zoom-controls {
+  margin-bottom: 10px;
+}
+
+.zoom-controls button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.org-node {
+  background-color: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.org-node .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.org-node .description {
+  font-size: 14px;
+  color: #666;
+}
+
+/*primer intento de estilo segun hu*/
+.organigram-box {
+  border: 2px solid red;
+  border-radius: 10px; /* Ajusta según el nivel de redondez deseado */
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.organigram-header {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.organigram-content {
+  border-top: 1px solid black; /* Línea de separación */
+  padding-top: 5px;
+  text-align: center;
+}
+
+/*segundo intento de estilo segun hu*/
+.custom-node {
+  border: 2px solid pink;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.custom-node .title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.custom-node .subtitle {
+  font-size: 1em;
+}
+
+.custom-node .description {
+  font-size: 0.8em;
+}
+
+
+/*prime ng*/
+.ui-organizationchart .node-content {
+  padding: .5em .7em;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.company .ui-organizationchart .node-content {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.company .ui-organizationchart .node-content:hover {
+  background-color: #eee;
+}
+
+.ui-person {
+  background-color: #f9f9f9;
+}
+
+/* Ajusta el contenido del nodo */
+.node-content {
+  padding: 1em;
+  background-color: #fff;            /* Fondo blanco */
+  border: 1px solid #ddd;            /* Borde gris claro */
+  border-radius: 10px;               /* Esquinas redondeadas (bisel) */
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para efecto 3D */
+  margin: 0;                         /* Elimina cualquier margen extra */
+}
+
+/* Remueve el borde y margenes del contenedor externo del nodo */
+.p-organizationchart .p-organizationchart-node-content {
+  border: none;                        /* Remueve el borde externo */
+  padding: 0;                          /* Elimina espacio adicional */
+  margin: 0;                           /* Elimina márgenes externos */
+}
+
+/* Línea divisoria dentro del nodo */
+.divider {
+  margin: 10px 0;                      /* Margen ajustado para la línea divisoria */
+  border: none;
+  border-top: 1px solid #ddd;           /* Línea divisoria fina */
+  width: 80%;                           /* Ajustar ancho de la línea */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ajusta las líneas de conexión para evitar espacios innecesarios */
+.p-organizationchart .p-organizationchart-lines {
+  margin-top: -1px;                     /* Ajusta la línea superior para eliminar espacios */
+}
+
+
